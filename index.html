@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chow — Nutrition & Aliments</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="index.html" class="logo">🥦 chow</a>
+      <p class="tagline">Les valeurs nutritionnelles, sans prise de tête.</p>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__text">
+      <h1>Mieux manger <br/><span>commence ici.</span></h1>
+      <p>Explore 20 aliments du quotidien et découvre leurs macronutriments essentiels — protéines, glucides, lipides et calories — pour 100g.</p>
+    </div>
+    <div class="hero__badge">
+      <span>20</span>
+      <small>aliments</small>
+    </div>
+  </section>
+
+  <!-- FILTERS -->
+  <section class="filters" id="aliments">
+    <div class="filters__inner">
+      <button class="filter-btn active" data-filter="tous">Tous</button>
+      <button class="filter-btn" data-filter="Légumes">Légumes</button>
+      <button class="filter-btn" data-filter="Viandes">Viandes</button>
+      <button class="filter-btn" data-filter="Céréales">Céréales</button>
+      <button class="filter-btn" data-filter="Fruits">Fruits</button>
+      <button class="filter-btn" data-filter="Poissons">Poissons</button>
+      <button class="filter-btn" data-filter="Légumineuses">Légumineuses</button>
+      <button class="filter-btn" data-filter="Produits laitiers">Laitiers</button>
+      <button class="filter-btn" data-filter="Charcuterie">Charcuterie</button>
+      <button class="filter-btn" data-filter="Boulangerie">Boulangerie</button>
+      <button class="filter-btn" data-filter="Plats préparés">Plats préparés</button>
+    </div>
+  </section>
+
+  <!-- FOOD GRID -->
+  <main class="grid-section">
+    <div class="food-grid" id="foodGrid">
+      <!-- Cards injected by JS -->
+    </div>
+    <p class="no-results hidden" id="noResults">Aucun aliment trouvé dans cette catégorie.</p>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Chow © 2026</p>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
