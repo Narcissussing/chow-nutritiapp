@@ -7,6 +7,14 @@
     "glucides": 28,
     "proteines": 2.7,
     "lipides": 0.3,
+    "categorie": "Céréales",
+    "portion": "100g",
+    "origine": "Asie",
+    "bienfaits": [
+      "Facile à digérer",
+      "Bonne source d'énergie",
+      "Faible en lipides"
+    ],
     "image": "images/riz.jpg"
   },
   {
@@ -17,6 +25,14 @@
     "glucides": 31,
     "proteines": 5.5,
     "lipides": 0.9,
+    "categorie": "Céréales",
+    "portion": "100g",
+    "origine": "Italie",
+    "bienfaits": [
+      "Énergie durable",
+      "Facile à cuisiner",
+      "Bon pour les sportifs"
+    ],
     "image": "images/pates.jpg"
   },
   {
@@ -27,6 +43,14 @@
     "glucides": 5.8,
     "proteines": 1.3,
     "lipides": 0.1,
+    "categorie": "Légumes",
+    "portion": "100g",
+    "origine": "Europe",
+    "bienfaits": [
+      "Riche en fibres",
+      "Faible en calories",
+      "Bon pour la digestion"
+    ],
     "image": "images/chou.jpg"
   },
   {
@@ -37,6 +61,14 @@
     "glucides": 9.6,
     "proteines": 0.9,
     "lipides": 0.2,
+    "categorie": "Légumes",
+    "portion": "100g",
+    "origine": "Asie centrale",
+    "bienfaits": [
+      "Bonne pour la vision",
+      "Riche en vitamine A",
+      "Bonne pour la peau"
+    ],
     "image": "images/carotte.jpg"
   },
   {
@@ -47,16 +79,32 @@
     "glucides": 22,
     "proteines": 8.7,
     "lipides": 0.5,
+    "categorie": "Légumineuses",
+    "portion": "100g",
+    "origine": "Amérique du Sud",
+    "bienfaits": [
+      "Riche en protéines",
+      "Très rassasiant",
+      "Bon pour le transit"
+    ],
     "image": "images/haricots.jpg"
   },
   {
     "id": "baguette",
     "nom": "Baguette",
-    "description": "Pain traditionnel français à la croûte croustillante. Source de glucides complexes et de glucides rapides.",
+    "description": "Pain traditionnel français à la croûte croustillante. Source de glucides complexes et rapides.",
     "calories": 270,
     "glucides": 55,
     "proteines": 9,
     "lipides": 1.2,
+    "categorie": "Boulangerie",
+    "portion": "100g",
+    "origine": "France",
+    "bienfaits": [
+      "Apporte de l'énergie",
+      "Très populaire",
+      "Facile à accompagner"
+    ],
     "image": "images/baguette.jpg"
   },
   {
@@ -67,6 +115,14 @@
     "glucides": 52,
     "proteines": 7.5,
     "lipides": 14,
+    "categorie": "Plats préparés",
+    "portion": "100g",
+    "origine": "Indonésie",
+    "bienfaits": [
+      "Rapide à préparer",
+      "Très pratique",
+      "Énergétique"
+    ],
     "image": "images/indomie.jpg"
   },
   {
@@ -77,6 +133,14 @@
     "glucides": 15,
     "proteines": 0.8,
     "lipides": 0.4,
+    "categorie": "Fruits",
+    "portion": "100g",
+    "origine": "Inde",
+    "bienfaits": [
+      "Riche en vitamine C",
+      "Hydratante",
+      "Bonne source d'antioxydants"
+    ],
     "image": "images/mangue.jpg"
   },
   {
@@ -87,6 +151,14 @@
     "glucides": 21,
     "proteines": 4.4,
     "lipides": 1.9,
+    "categorie": "Céréales",
+    "portion": "100g",
+    "origine": "Pérou",
+    "bienfaits": [
+      "Protéines complètes",
+      "Riche en fibres",
+      "Sans gluten"
+    ],
     "image": "images/quinoa.jpg"
   },
   {
@@ -97,6 +169,14 @@
     "glucides": 4.6,
     "proteines": 0.9,
     "lipides": 0.2,
+    "categorie": "Légumes",
+    "portion": "100g",
+    "origine": "Amérique centrale",
+    "bienfaits": [
+      "Très faible en calories",
+      "Riche en vitamine C",
+      "Hydratant"
+    ],
     "image": "images/poivron-vert.jpg"
   },
   {
@@ -107,6 +187,14 @@
     "glucides": 6,
     "proteines": 1,
     "lipides": 0.3,
+    "categorie": "Légumes",
+    "portion": "100g",
+    "origine": "Amérique centrale",
+    "bienfaits": [
+      "Riche en antioxydants",
+      "Goût plus sucré",
+      "Très vitaminé"
+    ],
     "image": "images/poivron-rouge.jpg"
   },
   {
@@ -117,6 +205,14 @@
     "glucides": 5.7,
     "proteines": 1,
     "lipides": 0.2,
+    "categorie": "Légumes",
+    "portion": "100g",
+    "origine": "Inde",
+    "bienfaits": [
+      "Bonne source de fibres",
+      "Faible en calories",
+      "Bonne pour la digestion"
+    ],
     "image": "images/aubergine.jpg"
   },
   {
@@ -127,6 +223,14 @@
     "glucides": 6.6,
     "proteines": 2.8,
     "lipides": 0.4,
+    "categorie": "Légumes",
+    "portion": "100g",
+    "origine": "Italie",
+    "bienfaits": [
+      "Très nutritif",
+      "Riche en fibres",
+      "Bon pour l'immunité"
+    ],
     "image": "images/brocoli.jpg"
   },
   {
@@ -137,66 +241,122 @@
     "glucides": 0,
     "proteines": 31,
     "lipides": 3.6,
+    "categorie": "Viandes",
+    "portion": "100g",
+    "origine": "Monde entier",
+    "bienfaits": [
+      "Très riche en protéines",
+      "Faible en matières grasses",
+      "Aide à la récupération musculaire"
+    ],
     "image": "images/poulet.jpg"
   },
   {
     "id": "boeuf",
     "nom": "Bœuf haché 5%",
-    "description": "Viande hachée maigre, excellente source de protéines et de fer. Version allégée du bœuf haché classique.",
+    "description": "Viande hachée maigre, excellente source de protéines et de fer.",
     "calories": 137,
     "glucides": 0,
     "proteines": 21,
     "lipides": 5,
+    "categorie": "Viandes",
+    "portion": "100g",
+    "origine": "Monde entier",
+    "bienfaits": [
+      "Riche en fer",
+      "Bonne source de protéines",
+      "Très rassasiant"
+    ],
     "image": "images/boeuf.jpg"
   },
   {
     "id": "saumon",
     "nom": "Saumon",
-    "description": "Poisson gras riche en oméga-3, bénéfique pour le cœur et le cerveau. Excellente source de protéines.",
+    "description": "Poisson gras riche en oméga-3, bénéfique pour le cœur et le cerveau.",
     "calories": 208,
     "glucides": 0,
     "proteines": 20,
     "lipides": 13,
+    "categorie": "Poissons",
+    "portion": "100g",
+    "origine": "Norvège",
+    "bienfaits": [
+      "Riche en oméga-3",
+      "Bon pour le cerveau",
+      "Bon pour le cœur"
+    ],
     "image": "images/saumon.jpg"
   },
   {
     "id": "dinde",
     "nom": "Dinde",
-    "description": "Viande blanche très maigre, riche en protéines et en tryptophane. Alternative légère au poulet.",
+    "description": "Viande blanche très maigre, riche en protéines et en tryptophane.",
     "calories": 135,
     "glucides": 0,
     "proteines": 30,
     "lipides": 1,
+    "categorie": "Viandes",
+    "portion": "100g",
+    "origine": "Amérique du Nord",
+    "bienfaits": [
+      "Très maigre",
+      "Riche en protéines",
+      "Faible en calories"
+    ],
     "image": "images/dinde.jpg"
   },
   {
     "id": "merguez",
     "nom": "Merguez",
-    "description": "Saucisse épicée d'origine nord-africaine à base d'agneau ou de bœuf. Très savoureuse et aromatique.",
+    "description": "Saucisse épicée d'origine nord-africaine à base d'agneau ou de bœuf.",
     "calories": 290,
     "glucides": 1.5,
     "proteines": 14,
     "lipides": 25,
+    "categorie": "Charcuterie",
+    "portion": "100g",
+    "origine": "Afrique du Nord",
+    "bienfaits": [
+      "Très savoureuse",
+      "Riche en protéines",
+      "Goût épicé"
+    ],
     "image": "images/merguez.jpg"
   },
   {
     "id": "feta",
     "nom": "Feta",
-    "description": "Fromage grec au lait de brebis, légèrement salé et crémeux. Riche en calcium et en protéines.",
+    "description": "Fromage grec au lait de brebis, légèrement salé et crémeux.",
     "calories": 264,
     "glucides": 1.2,
     "proteines": 14,
     "lipides": 21,
+    "categorie": "Produits laitiers",
+    "portion": "100g",
+    "origine": "Grèce",
+    "bienfaits": [
+      "Riche en calcium",
+      "Bonne source de protéines",
+      "Texture crémeuse"
+    ],
     "image": "images/feta.jpg"
   },
   {
     "id": "tomate",
     "nom": "Tomate",
-    "description": "Fruit légume très hydratant, riche en lycopène et en vitamine C. Très faible en calories.",
+    "description": "Fruit légume très hydratant, riche en lycopène et en vitamine C.",
     "calories": 18,
     "glucides": 3.9,
     "proteines": 0.9,
     "lipides": 0.2,
+    "categorie": "Légumes",
+    "portion": "100g",
+    "origine": "Amérique du Sud",
+    "bienfaits": [
+      "Très hydratante",
+      "Riche en antioxydants",
+      "Faible en calories"
+    ],
     "image": "images/tomate.jpg"
   }
 ]
