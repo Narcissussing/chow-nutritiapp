@@ -1,12 +1,12 @@
 [
   {
     "id": "riz",
-    "nom": "Riz blanc",
+    "nom": "Riz",
     "description": "Céréale de base consommée dans le monde entier, légère et facile à digérer. Excellente source d'énergie rapide.",
-    "calories": 130,
-    "glucides": 28,
-    "proteines": 2.7,
-    "lipides": 0.3,
+    "calories": 350,
+    "glucides": 78,
+    "proteines": 7,
+    "lipides": 0.6,
     "categorie": "Céréales",
     "portion": "100g",
     "origine": "Asie",
@@ -118,11 +118,7 @@
     "categorie": "Plats préparés",
     "portion": "100g",
     "origine": "Indonésie",
-    "bienfaits": [
-      "Rapide à préparer",
-      "Très pratique",
-      "Énergétique"
-    ],
+    "bienfaits": ["Rapide à préparer", "Très pratique", "Énergétique"],
     "image": "images/indomie.jpg"
   },
   {
@@ -154,11 +150,7 @@
     "categorie": "Céréales",
     "portion": "100g",
     "origine": "Pérou",
-    "bienfaits": [
-      "Protéines complètes",
-      "Riche en fibres",
-      "Sans gluten"
-    ],
+    "bienfaits": ["Protéines complètes", "Riche en fibres", "Sans gluten"],
     "image": "images/quinoa.jpg"
   },
   {
@@ -190,11 +182,7 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Amérique centrale",
-    "bienfaits": [
-      "Riche en antioxydants",
-      "Goût plus sucré",
-      "Très vitaminé"
-    ],
+    "bienfaits": ["Riche en antioxydants", "Goût plus sucré", "Très vitaminé"],
     "image": "images/poivron-rouge.jpg"
   },
   {
@@ -226,11 +214,7 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Italie",
-    "bienfaits": [
-      "Très nutritif",
-      "Riche en fibres",
-      "Bon pour l'immunité"
-    ],
+    "bienfaits": ["Très nutritif", "Riche en fibres", "Bon pour l'immunité"],
     "image": "images/brocoli.jpg"
   },
   {
@@ -298,11 +282,7 @@
     "categorie": "Viandes",
     "portion": "100g",
     "origine": "Amérique du Nord",
-    "bienfaits": [
-      "Très maigre",
-      "Riche en protéines",
-      "Faible en calories"
-    ],
+    "bienfaits": ["Très maigre", "Riche en protéines", "Faible en calories"],
     "image": "images/dinde.jpg"
   },
   {
@@ -316,11 +296,7 @@
     "categorie": "Charcuterie",
     "portion": "100g",
     "origine": "Afrique du Nord",
-    "bienfaits": [
-      "Très savoureuse",
-      "Riche en protéines",
-      "Goût épicé"
-    ],
+    "bienfaits": ["Très savoureuse", "Riche en protéines", "Goût épicé"],
     "image": "images/merguez.jpg"
   },
   {

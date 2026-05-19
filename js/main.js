@@ -9,6 +9,15 @@ const noResults = document.getElementById("noResults");
 // Récupérer les données depuis le fichier JSON
 const reponse = await fetch("data/foods.json");
 const aliments = await reponse.json();
+const totalAliments = aliments.length;
+
+// HERO TEXT
+const heroText = document.querySelector(".hero__text p");
+heroText.innerText = `Explorer ${totalAliments} aliments du quotidien et découvre leurs macronutriments essentiels — protéines, glucides, lipides et calories — pour 100g.`;
+
+// BADGE NUMBER
+const badgeNumber = document.querySelector(".hero__badge span");
+badgeNumber.innerText = totalAliments;
 
 // On garde une copie de tous les aliments pour les filtres
 let alimentsFiltres = aliments;
@@ -28,9 +37,9 @@ function genererAliments(liste) {
   noResults.classList.add("hidden");
 
   // Boucle pour parcourir tous les aliments
-  for (let i = 0; i < liste.length; i++) {
+  liste.forEach((item) => {
     // Récupérer un aliment du tableau
-    const aliment = liste[i];
+    const aliment = item;
 
     // Créer le lien cliquable (la carte)
     const cardElement = document.createElement("a");
@@ -66,7 +75,7 @@ function genererAliments(liste) {
 
     // Ajouter la carte dans la grille
     sectionFiches.appendChild(cardElement);
-  }
+  });
 }
 
 // ---- Fonction pour retourner un emoji selon la catégorie ----
@@ -90,12 +99,12 @@ genererAliments(aliments);
 // ---- Gestion des boutons de filtre ----
 const filterBtns = document.querySelectorAll(".filter-btn");
 
-for (let i = 0; i < filterBtns.length; i++) {
-  filterBtns[i].addEventListener("click", function (event) {
+filterBtns.forEach((btn) => {
+  btn.addEventListener("click", function (event) {
     // Retirer la classe active de tous les boutons
-    for (let j = 0; j < filterBtns.length; j++) {
-      filterBtns[j].classList.remove("active");
-    }
+    filterBtns.forEach((button) => {
+      button.classList.remove("active");
+    });
 
     // Ajouter la classe active sur le bouton cliqué
     event.target.classList.add("active");
@@ -115,4 +124,4 @@ for (let i = 0; i < filterBtns.length; i++) {
     // Regénérer les cartes avec la liste filtrée
     genererAliments(alimentsFiltres);
   });
-}
+});
