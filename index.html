@@ -36,16 +36,27 @@
     <section class="filters" id="aliments">
       <div class="filters__inner">
         <!-- Menu de tri -->
-        <div class="sort-wrapper">
-          <label for="sortSelect">Trier par :</label>
-          <select id="sortSelect">
-            <option value="az">Nom (A → Z)</option>
-            <option value="za">Nom (Z → A)</option>
-            <option value="cal-asc">Calories ↗</option>
-            <option value="cal-desc">Calories ↘</option>
-            <option value="prot-asc">Protéines ↗</option>
-            <option value="prot-desc">Protéines ↘</option>
-          </select>
+        <!-- Recherche + tri -->
+        <div class="search-sort-wrapper">
+          <div class="sort-wrapper">
+            <label for="sortSelect">Trier par :</label>
+            <select id="sortSelect">
+              <option value="az">Nom (A → Z)</option>
+              <option value="za">Nom (Z → A)</option>
+              <option value="cal-asc">Calories ↗</option>
+              <option value="cal-desc">Calories ↘</option>
+              <option value="prot-asc">Protéines ↗</option>
+              <option value="prot-desc">Protéines ↘</option>
+            </select>
+          </div>
+          <div class="search-wrapper">
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Rechercher un aliment..."
+              autocomplete="off"
+            />
+          </div>
         </div>
 
         <!-- Boutons de filtre par catégorie -->
@@ -71,9 +82,7 @@
       <div class="food-grid" id="foodGrid">
         <!-- Cards injected by JS -->
       </div>
-      <p class="no-results hidden" id="noResults">
-        Aucun aliment trouvé dans cette catégorie.
-      </p>
+      <p class="no-results hidden" id="noResults">Aucun aliment trouvé.</p>
     </main>
 
     <!-- FOOTER -->

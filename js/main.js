@@ -2,25 +2,28 @@
 // main.js — Chow Nutrition App
 // ============================================
 
-// Sélectionner la section où afficher les cartes
+// ---- Sélection des éléments du DOM ----
 const sectionFiches = document.querySelector(".food-grid");
 const noResults = document.getElementById("noResults");
+const heroText = document.querySelector(".hero__text p");
+const badgeNumber = document.querySelector(".hero__badge span");
+const filterBtns = document.querySelectorAll(".filter-btn");
+const sortSelect = document.getElementById("sortSelect");
+const searchInput = document.getElementById("searchInput");
 
-// Récupérer les données depuis le fichier JSON
+// ---- Récupération des données depuis le fichier JSON ----
 const reponse = await fetch("data/foods.json");
 const aliments = await reponse.json();
 const totalAliments = aliments.length;
 
-// HERO TEXT
-const heroText = document.querySelector(".hero__text p");
-heroText.innerText = `Explorer ${totalAliments} aliments du quotidien et découvre leurs macronutriments essentiels — protéines, glucides, lipides et calories — pour 100g.`;
-
-// BADGE NUMBER
-const badgeNumber = document.querySelector(".hero__badge span");
+// ---- Mise à jour du hero (texte + badge) ----
+heroText.innerText = `Découvre les ${totalAliments} aliments du quotidien et leurs macronutriments essentiels — protéines, glucides, lipides et calories — pour 100g.`;
 badgeNumber.innerText = totalAliments;
 
-// On garde une copie de tous les aliments pour les filtres
-let alimentsFiltres = aliments;
+// ---- État courant de la page (filtres + tri + recherche) ----
+let categorieActive = "tous";
+let triActif = "az";
+let rechercheActive = "";
 
 // ---- Fonction pour générer les cartes aliments ----
 function genererAliments(liste) {
@@ -36,17 +39,14 @@ function genererAliments(liste) {
   // Cacher le message "aucun résultat"
   noResults.classList.add("hidden");
 
-  // Boucle pour parcourir tous les aliments
-  liste.forEach((item) => {
-    // Récupérer un aliment du tableau
-    const aliment = item;
-
+  // Parcourir la liste et créer une carte pour chaque aliment
+  liste.forEach((aliment) => {
     // Créer le lien cliquable (la carte)
     const cardElement = document.createElement("a");
     cardElement.classList.add("food-card");
     cardElement.href = "food.html?id=" + aliment.id;
 
-    // Créer le bloc image (emoji pour l'instant)
+    // Créer le bloc image (emoji)
     const imagePlaceholder = document.createElement("div");
     imagePlaceholder.classList.add("food-card__img-placeholder");
     imagePlaceholder.innerText = aliment.emoji;
@@ -77,11 +77,6 @@ function genererAliments(liste) {
     sectionFiches.appendChild(cardElement);
   });
 }
-
-
-// On garde la catégorie et le tri actifs en mémoire
-let categorieActive = "tous";
-let triActif = "az"; // tri par défaut
 
 // ---- Fonction pour trier une liste d'aliments ----
 function trierAliments(liste, tri) {
@@ -117,22 +112,30 @@ function trierAliments(liste, tri) {
   return listeTriee;
 }
 
-// ---- Fonction qui applique catégorie + tri et regénère la grille ----
+// ---- Fonction qui applique recherche + catégorie + tri ----
 function appliquerFiltreEtTri() {
-  // 1. Filtrer par catégorie
-  let liste;
-  if (categorieActive === "tous") {
-    liste = aliments;
-  } else {
-    liste = aliments.filter(function (aliment) {
+  let liste = aliments;
+
+  // 1. Filtrer par recherche (sur le nom)
+  if (rechercheActive !== "") {
+    liste = liste.filter(function (aliment) {
+      const nomMinuscule = aliment.nom.toLowerCase();
+      const rechercheMinuscule = rechercheActive.toLowerCase();
+      return nomMinuscule.includes(rechercheMinuscule);
+    });
+  }
+
+  // 2. Filtrer par catégorie
+  if (categorieActive !== "tous") {
+    liste = liste.filter(function (aliment) {
       return aliment.categorie === categorieActive;
     });
   }
 
-  // 2. Trier
+  // 3. Trier
   liste = trierAliments(liste, triActif);
 
-  // 3. Afficher
+  // 4. Afficher
   genererAliments(liste);
 }
 
@@ -140,14 +143,11 @@ function appliquerFiltreEtTri() {
 appliquerFiltreEtTri();
 
 // ---- Gestion des boutons de filtre par catégorie ----
-const filterBtns = document.querySelectorAll(".filter-btn");
-
-for (let i = 0; i < filterBtns.length; i++) {
-  filterBtns[i].addEventListener("click", function (event) {
+filterBtns.forEach((btn) => {
+  btn.addEventListener("click", function (event) {
     // Retirer la classe active de tous les boutons
-    for (let j = 0; j < filterBtns.length; j++) {
-      filterBtns[j].classList.remove("active");
-    }
+    filterBtns.forEach((b) => b.classList.remove("active"));
+
     // Ajouter la classe active sur le bouton cliqué
     event.target.classList.add("active");
 
@@ -157,12 +157,16 @@ for (let i = 0; i < filterBtns.length; i++) {
     // Appliquer
     appliquerFiltreEtTri();
   });
-}
+});
 
 // ---- Gestion du menu déroulant de tri ----
-const sortSelect = document.getElementById("sortSelect");
-
 sortSelect.addEventListener("change", function (event) {
   triActif = event.target.value;
+  appliquerFiltreEtTri();
+});
+
+// ---- Gestion de la barre de recherche ----
+searchInput.addEventListener("input", function (event) {
+  rechercheActive = event.target.value;
   appliquerFiltreEtTri();
 });
