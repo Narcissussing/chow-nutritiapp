@@ -93,35 +93,90 @@ function getEmoji(categorie) {
   return "🍽️";
 }
 
-// ---- Premier affichage de la page ----
-genererAliments(aliments);
+// On garde la catégorie et le tri actifs en mémoire
+let categorieActive = "tous";
+let triActif = "az"; // tri par défaut
 
-// ---- Gestion des boutons de filtre ----
+// ---- Fonction pour trier une liste d'aliments ----
+function trierAliments(liste, tri) {
+  // Créer une copie pour ne pas modifier la liste d'origine
+  const listeTriee = Array.from(liste);
+
+  if (tri === "az") {
+    listeTriee.sort(function (a, b) {
+      return a.nom.localeCompare(b.nom);
+    });
+  } else if (tri === "za") {
+    listeTriee.sort(function (a, b) {
+      return b.nom.localeCompare(a.nom);
+    });
+  } else if (tri === "cal-asc") {
+    listeTriee.sort(function (a, b) {
+      return a.calories - b.calories;
+    });
+  } else if (tri === "cal-desc") {
+    listeTriee.sort(function (a, b) {
+      return b.calories - a.calories;
+    });
+  } else if (tri === "prot-asc") {
+    listeTriee.sort(function (a, b) {
+      return a.proteines - b.proteines;
+    });
+  } else if (tri === "prot-desc") {
+    listeTriee.sort(function (a, b) {
+      return b.proteines - a.proteines;
+    });
+  }
+
+  return listeTriee;
+}
+
+// ---- Fonction qui applique catégorie + tri et regénère la grille ----
+function appliquerFiltreEtTri() {
+  // 1. Filtrer par catégorie
+  let liste;
+  if (categorieActive === "tous") {
+    liste = aliments;
+  } else {
+    liste = aliments.filter(function (aliment) {
+      return aliment.categorie === categorieActive;
+    });
+  }
+
+  // 2. Trier
+  liste = trierAliments(liste, triActif);
+
+  // 3. Afficher
+  genererAliments(liste);
+}
+
+// ---- Premier affichage de la page (trié A-Z par défaut) ----
+appliquerFiltreEtTri();
+
+// ---- Gestion des boutons de filtre par catégorie ----
 const filterBtns = document.querySelectorAll(".filter-btn");
 
-filterBtns.forEach((btn) => {
-  btn.addEventListener("click", function (event) {
+for (let i = 0; i < filterBtns.length; i++) {
+  filterBtns[i].addEventListener("click", function (event) {
     // Retirer la classe active de tous les boutons
-    filterBtns.forEach((button) => {
-      button.classList.remove("active");
-    });
-
+    for (let j = 0; j < filterBtns.length; j++) {
+      filterBtns[j].classList.remove("active");
+    }
     // Ajouter la classe active sur le bouton cliqué
     event.target.classList.add("active");
 
-    // Récupérer la valeur du filtre choisi
-    const filtre = event.target.dataset.filter;
+    // Mettre à jour la catégorie active
+    categorieActive = event.target.dataset.filter;
 
-    // Filtrer la liste selon la catégorie
-    if (filtre === "tous") {
-      alimentsFiltres = aliments;
-    } else {
-      alimentsFiltres = aliments.filter(function (aliment) {
-        return aliment.categorie === filtre;
-      });
-    }
-
-    // Regénérer les cartes avec la liste filtrée
-    genererAliments(alimentsFiltres);
+    // Appliquer
+    appliquerFiltreEtTri();
   });
+}
+
+// ---- Gestion du menu déroulant de tri ----
+const sortSelect = document.getElementById("sortSelect");
+
+sortSelect.addEventListener("change", function (event) {
+  triActif = event.target.value;
+  appliquerFiltreEtTri();
 });

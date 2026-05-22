@@ -1,64 +1,95 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chow — Nutrition & Aliments</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chow — Nutrition & Aliments</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header__inner">
+        <a href="index.html" class="logo">🥦 chow</a>
+        <p class="tagline">Les valeurs nutritionnelles, sans prise de tête.</p>
+      </div>
+    </header>
 
-  <!-- HEADER -->
-  <header class="header">
-    <div class="header__inner">
-      <a href="index.html" class="logo">🥦 chow</a>
-      <p class="tagline">Les valeurs nutritionnelles, sans prise de tête.</p>
-    </div>
-  </header>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__text">
+        <h1>Mieux manger <br /><span>commence ici.</span></h1>
+        <p></p>
+      </div>
+      <div class="hero__badge">
+        <span></span>
+        <small>aliments</small>
+      </div>
+    </section>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero__text">
-      <h1>Mieux manger <br/><span>commence ici.</span></h1>
-      <p></p>
-    </div>
-    <div class="hero__badge">
-      <span></span>
-      <small>aliments</small>
-    </div>
-  </section>
+    <!-- FILTERS -->
+    <!-- FILTERS + SORT -->
+    <section class="filters" id="aliments">
+      <div class="filters__inner">
+        <!-- Menu de tri -->
+        <div class="sort-wrapper">
+          <label for="sortSelect">Trier par :</label>
+          <select id="sortSelect">
+            <option value="az">Nom (A → Z)</option>
+            <option value="za">Nom (Z → A)</option>
+            <option value="cal-asc">Calories ↗</option>
+            <option value="cal-desc">Calories ↘</option>
+            <option value="prot-asc">Protéines ↗</option>
+            <option value="prot-desc">Protéines ↘</option>
+          </select>
+        </div>
 
-  <!-- FILTERS -->
-  <section class="filters" id="aliments">
-    <div class="filters__inner">
-      <button class="filter-btn active" data-filter="tous">Tous</button>
-      <button class="filter-btn" data-filter="Légumes">Légumes</button>
-      <button class="filter-btn" data-filter="Viandes">Viandes</button>
-      <button class="filter-btn" data-filter="Céréales">Céréales</button>
-      <button class="filter-btn" data-filter="Fruits">Fruits</button>
-      <button class="filter-btn" data-filter="Poissons">Poissons</button>
-      <button class="filter-btn" data-filter="Légumineuses">Légumineuses</button>
-      <button class="filter-btn" data-filter="Produits laitiers">Laitiers</button>
-      <button class="filter-btn" data-filter="Charcuterie">Charcuterie</button>
-      <button class="filter-btn" data-filter="Boulangerie">Boulangerie</button>
-      <button class="filter-btn" data-filter="Plats préparés">Plats préparés</button>
-    </div>
-  </section>
+        <!-- Boutons de filtre par catégorie -->
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="tous">Tous</button>
+          <button class="filter-btn" data-filter="Légumes">Légumes</button>
+          <button class="filter-btn" data-filter="Viandes">Viandes</button>
+          <button class="filter-btn" data-filter="Céréales">Céréales</button>
+          <button class="filter-btn" data-filter="Fruits">Fruits</button>
+          <button class="filter-btn" data-filter="Poissons">Poissons</button>
+          <button class="filter-btn" data-filter="Légumineuses">
+            Légumineuses
+          </button>
+          <button class="filter-btn" data-filter="Produits laitiers">
+            Laitiers
+          </button>
+          <button class="filter-btn" data-filter="Charcuterie">
+            Charcuterie
+          </button>
+          <button class="filter-btn" data-filter="Boulangerie">
+            Boulangerie
+          </button>
+          <button class="filter-btn" data-filter="Plats préparés">
+            Plats préparés
+          </button>
+        </div>
+      </div>
+    </section>
 
-  <!-- FOOD GRID -->
-  <main class="grid-section">
-    <div class="food-grid" id="foodGrid">
-      <!-- Cards injected by JS -->
-    </div>
-    <p class="no-results hidden" id="noResults">Aucun aliment trouvé dans cette catégorie.</p>
-  </main>
+    <!-- FOOD GRID -->
+    <main class="grid-section">
+      <div class="food-grid" id="foodGrid">
+        <!-- Cards injected by JS -->
+      </div>
+      <p class="no-results hidden" id="noResults">
+        Aucun aliment trouvé dans cette catégorie.
+      </p>
+    </main>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <p>Chow © 2026</p>
-  </footer>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>Chow © 2026</p>
+    </footer>
 
-  <script type="module" src="js/main.js"></script>
-</body>
+    <script type="module" src="js/main.js"></script>
+  </body>
 </html>
