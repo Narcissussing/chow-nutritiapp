@@ -49,7 +49,7 @@ function genererAliments(liste) {
     // Créer le bloc image (emoji pour l'instant)
     const imagePlaceholder = document.createElement("div");
     imagePlaceholder.classList.add("food-card__img-placeholder");
-    imagePlaceholder.innerText = getEmoji(aliment.categorie);
+    imagePlaceholder.innerText = aliment.emoji;
 
     // Créer le bloc texte
     const bodyElement = document.createElement("div");

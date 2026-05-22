@@ -15,7 +15,8 @@
       "Bonne source d'énergie",
       "Faible en lipides"
     ],
-    "image": "images/riz.jpg"
+    "image": "images/riz.jpg",
+    "emoji": "🍚"
   },
   {
     "id": "pates",
@@ -33,7 +34,8 @@
       "Facile à cuisiner",
       "Bon pour les sportifs"
     ],
-    "image": "images/pates.jpg"
+    "image": "images/pates.jpg",
+    "emoji": "🍝"
   },
   {
     "id": "chou",
@@ -51,7 +53,8 @@
       "Faible en calories",
       "Bon pour la digestion"
     ],
-    "image": "images/chou.jpg"
+    "image": "images/chou.jpg",
+    "emoji": "🥬"
   },
   {
     "id": "carotte",
@@ -69,7 +72,8 @@
       "Riche en vitamine A",
       "Bonne pour la peau"
     ],
-    "image": "images/carotte.jpg"
+    "image": "images/carotte.jpg",
+    "emoji": "🥕"
   },
   {
     "id": "haricots",
@@ -87,7 +91,8 @@
       "Très rassasiant",
       "Bon pour le transit"
     ],
-    "image": "images/haricots.jpg"
+    "image": "images/haricots.jpg",
+    "emoji": "🫘"
   },
   {
     "id": "baguette",
@@ -105,7 +110,8 @@
       "Très populaire",
       "Facile à accompagner"
     ],
-    "image": "images/baguette.jpg"
+    "image": "images/baguette.jpg",
+    "emoji": "🥖"
   },
   {
     "id": "indomie",
@@ -119,7 +125,8 @@
     "portion": "100g",
     "origine": "Indonésie",
     "bienfaits": ["Rapide à préparer", "Très pratique", "Énergétique"],
-    "image": "images/indomie.jpg"
+    "image": "images/indomie.jpg",
+    "emoji": "🍜"
   },
   {
     "id": "mangue",
@@ -137,7 +144,8 @@
       "Hydratante",
       "Bonne source d'antioxydants"
     ],
-    "image": "images/mangue.jpg"
+    "image": "images/mangue.jpg",
+    "emoji": "🥭"
   },
   {
     "id": "quinoa",
@@ -151,7 +159,8 @@
     "portion": "100g",
     "origine": "Pérou",
     "bienfaits": ["Protéines complètes", "Riche en fibres", "Sans gluten"],
-    "image": "images/quinoa.jpg"
+    "image": "images/quinoa.jpg",
+    "emoji": "🌾"
   },
   {
     "id": "poivron-vert",
@@ -169,7 +178,8 @@
       "Riche en vitamine C",
       "Hydratant"
     ],
-    "image": "images/poivron-vert.jpg"
+    "image": "images/poivron-vert.jpg",
+    "emoji": "🫑"
   },
   {
     "id": "poivron-rouge",
@@ -183,7 +193,8 @@
     "portion": "100g",
     "origine": "Amérique centrale",
     "bienfaits": ["Riche en antioxydants", "Goût plus sucré", "Très vitaminé"],
-    "image": "images/poivron-rouge.jpg"
+    "image": "images/poivron-rouge.jpg",
+    "emoji": "🌶️"
   },
   {
     "id": "aubergine",
@@ -201,7 +212,8 @@
       "Faible en calories",
       "Bonne pour la digestion"
     ],
-    "image": "images/aubergine.jpg"
+    "image": "images/aubergine.jpg",
+    "emoji": "🍆"
   },
   {
     "id": "brocoli",
@@ -215,7 +227,8 @@
     "portion": "100g",
     "origine": "Italie",
     "bienfaits": ["Très nutritif", "Riche en fibres", "Bon pour l'immunité"],
-    "image": "images/brocoli.jpg"
+    "image": "images/brocoli.jpg",
+    "emoji": "🥦"
   },
   {
     "id": "poulet",
@@ -233,7 +246,8 @@
       "Faible en matières grasses",
       "Aide à la récupération musculaire"
     ],
-    "image": "images/poulet.jpg"
+    "image": "images/poulet.jpg",
+    "emoji": "🍗"
   },
   {
     "id": "boeuf",
@@ -251,7 +265,8 @@
       "Bonne source de protéines",
       "Très rassasiant"
     ],
-    "image": "images/boeuf.jpg"
+    "image": "images/boeuf.jpg",
+    "emoji": "🥩"
   },
   {
     "id": "saumon",
@@ -269,7 +284,8 @@
       "Bon pour le cerveau",
       "Bon pour le cœur"
     ],
-    "image": "images/saumon.jpg"
+    "image": "images/saumon.jpg",
+    "emoji": "🐟"
   },
   {
     "id": "dinde",
@@ -283,7 +299,8 @@
     "portion": "100g",
     "origine": "Amérique du Nord",
     "bienfaits": ["Très maigre", "Riche en protéines", "Faible en calories"],
-    "image": "images/dinde.jpg"
+    "image": "images/dinde.jpg",
+    "emoji": "🦃"
   },
   {
     "id": "merguez",
@@ -297,7 +314,8 @@
     "portion": "100g",
     "origine": "Afrique du Nord",
     "bienfaits": ["Très savoureuse", "Riche en protéines", "Goût épicé"],
-    "image": "images/merguez.jpg"
+    "image": "images/merguez.jpg",
+    "emoji": "🌭"
   },
   {
     "id": "feta",
@@ -315,7 +333,8 @@
       "Bonne source de protéines",
       "Texture crémeuse"
     ],
-    "image": "images/feta.jpg"
+    "image": "images/feta.jpg",
+    "emoji": "🧀"
   },
   {
     "id": "tomate",
@@ -333,6 +352,7 @@
       "Riche en antioxydants",
       "Faible en calories"
     ],
-    "image": "images/tomate.jpg"
+    "image": "images/tomate.jpg",
+    "emoji": "🍅"
   }
 ]
