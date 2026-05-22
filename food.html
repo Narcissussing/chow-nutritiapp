@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chow — Détail aliment</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="index.html" class="logo">🥦 chow</a>
+      <p class="tagline">Les valeurs nutritionnelles, sans prise de tête.</p>
+    </div>
+  </header>
+
+  <!-- CONTENU PRINCIPAL -->
+  <main class="detail-section">
+
+    <!-- Bouton retour -->
+    <a href="index.html" class="btn-retour">← Retour aux aliments</a>
+
+    <!-- La carte détail sera injectée ici par JS -->
+    <div id="detailContainer"></div>
+
+    <!-- Message si aliment non trouvé -->
+    <p class="not-found hidden" id="notFound">Aliment introuvable.</p>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Chow © 2025 — Données nutritionnelles pour 100g de produit cru.</p>
+  </footer>
+
+  <script type="module" src="js/food.js"></script>
+</body>
+</html>
