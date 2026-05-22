@@ -7,7 +7,7 @@ consommer des données depuis un fichier JSON simulant une API,
 et pratiquer le versioning avec Git et GitHub.
 
 ## Aliments couverts
-20 aliments incluant légumes, fruits, viandes, céréales et produits laitiers.
+66 aliments incluant légumes, fruits, viandes, céréales et produits laitiers.
 
 ## Technologies utilisées
 - HTML5
