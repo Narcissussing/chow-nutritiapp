@@ -7,10 +7,14 @@
     "glucides": 22,
     "proteines": 21,
     "lipides": 49,
-    "categorie": "Fruits à coque",
+    "categorie": "Lipides",
     "portion": "100g",
     "origine": "Moyen-Orient",
-    "bienfaits": ["Riche en bonnes graisses", "Source de protéines", "Très rassasiante"],
+    "bienfaits": [
+      "Riche en bonnes graisses",
+      "Source de protéines",
+      "Très rassasiante"
+    ],
     "image": "images/amande.jpg",
     "emoji": "🌰"
   },
@@ -25,7 +29,11 @@
     "categorie": "Fruits",
     "portion": "100g",
     "origine": "Asie centrale",
-    "bienfaits": ["Riche en fibres", "Faible en calories", "Bon pour la digestion"],
+    "bienfaits": [
+      "Riche en fibres",
+      "Faible en calories",
+      "Bon pour la digestion"
+    ],
     "image": "images/pomme.jpg",
     "emoji": "🍎"
   },
@@ -40,7 +48,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Europe",
-    "bienfaits": ["Très peu calorique", "Riche en vitamine K", "Diurétique naturel"],
+    "bienfaits": [
+      "Très peu calorique",
+      "Riche en vitamine K",
+      "Diurétique naturel"
+    ],
     "image": "images/asperge.jpg",
     "emoji": "🌱"
   },
@@ -52,10 +64,14 @@
     "glucides": 8.5,
     "proteines": 2,
     "lipides": 15,
-    "categorie": "Fruits",
+    "categorie": "Lipides",
     "portion": "100g",
     "origine": "Mexique",
-    "bienfaits": ["Riche en bonnes graisses", "Bon pour le cœur", "Très rassasiant"],
+    "bienfaits": [
+      "Riche en bonnes graisses",
+      "Bon pour le cœur",
+      "Très rassasiant"
+    ],
     "image": "images/avocat.jpg",
     "emoji": "🥑"
   },
@@ -67,10 +83,14 @@
     "glucides": 55,
     "proteines": 9,
     "lipides": 1.2,
-    "categorie": "Boulangerie",
+    "categorie": "Féculents",
     "portion": "100g",
     "origine": "France",
-    "bienfaits": ["Apporte de l'énergie", "Très populaire", "Facile à accompagner"],
+    "bienfaits": [
+      "Apporte de l'énergie",
+      "Très populaire",
+      "Facile à accompagner"
+    ],
     "image": "images/baguette.jpg",
     "emoji": "🥖"
   },
@@ -85,7 +105,11 @@
     "categorie": "Fruits",
     "portion": "100g",
     "origine": "Asie du Sud-Est",
-    "bienfaits": ["Riche en potassium", "Énergie rapide", "Bonne avant le sport"],
+    "bienfaits": [
+      "Riche en potassium",
+      "Énergie rapide",
+      "Bonne avant le sport"
+    ],
     "image": "images/banane.jpg",
     "emoji": "🍌"
   },
@@ -100,7 +124,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Asie",
-    "bienfaits": ["Très peu calorique", "Source de protéines", "Riches en vitamines"],
+    "bienfaits": [
+      "Très peu calorique",
+      "Source de protéines",
+      "Riches en vitamines"
+    ],
     "image": "images/germes-soja.jpg",
     "emoji": "🌱"
   },
@@ -115,7 +143,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Méditerranée",
-    "bienfaits": ["Bonne pour la circulation", "Riche en antioxydants", "Naturellement sucrée"],
+    "bienfaits": [
+      "Bonne pour la circulation",
+      "Riche en antioxydants",
+      "Naturellement sucrée"
+    ],
     "image": "images/betterave.jpg",
     "emoji": "🫐"
   },
@@ -130,7 +162,11 @@
     "categorie": "Fruits",
     "portion": "100g",
     "origine": "Amérique du Nord",
-    "bienfaits": ["Très riches en antioxydants", "Bonnes pour la mémoire", "Faibles en calories"],
+    "bienfaits": [
+      "Très riches en antioxydants",
+      "Bonnes pour la mémoire",
+      "Faibles en calories"
+    ],
     "image": "images/myrtille.jpg",
     "emoji": "🫐"
   },
@@ -145,7 +181,11 @@
     "categorie": "Viandes",
     "portion": "100g",
     "origine": "Monde entier",
-    "bienfaits": ["Riche en fer", "Bonne source de protéines", "Très rassasiant"],
+    "bienfaits": [
+      "Riche en fer",
+      "Bonne source de protéines",
+      "Très rassasiant"
+    ],
     "image": "images/boeuf.jpg",
     "emoji": "🥩"
   },
@@ -160,7 +200,11 @@
     "categorie": "Viandes",
     "portion": "100g",
     "origine": "Monde entier",
-    "bienfaits": ["Très protéinée", "Riche en fer", "Goûteuse"],
+    "bienfaits": [
+      "Très protéinée",
+      "Riche en fer",
+      "Goûteuse"
+    ],
     "image": "images/boeuf-haché.jpg",
     "emoji": "🥩"
   },
@@ -172,10 +216,14 @@
     "glucides": 49,
     "proteines": 9,
     "lipides": 3.2,
-    "categorie": "Boulangerie",
+    "categorie": "Féculents",
     "portion": "100g",
     "origine": "Europe",
-    "bienfaits": ["Riche en fibres", "Très rassasiant", "Index glycémique bas"],
+    "bienfaits": [
+      "Riche en fibres",
+      "Très rassasiant",
+      "Index glycémique bas"
+    ],
     "image": "images/pain-complet.jpg",
     "emoji": "🍞"
   },
@@ -190,7 +238,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Italie",
-    "bienfaits": ["Très nutritif", "Riche en fibres", "Bon pour l'immunité"],
+    "bienfaits": [
+      "Très nutritif",
+      "Riche en fibres",
+      "Bon pour l'immunité"
+    ],
     "image": "images/brocoli.jpg",
     "emoji": "🥦"
   },
@@ -205,24 +257,13 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Europe",
-    "bienfaits": ["Riche en fibres", "Faible en calories", "Bon pour la digestion"],
+    "bienfaits": [
+      "Riche en fibres",
+      "Faible en calories",
+      "Bon pour la digestion"
+    ],
     "image": "images/chou.jpg",
     "emoji": "🥬"
-  },
-  {
-    "id": "haricots-rouges",
-    "nom": "Haricots rouges en conserve",
-    "description": "Légumineuse pratique et déjà cuite, riche en protéines et en fibres.",
-    "calories": 80,
-    "glucides": 14,
-    "proteines": 5,
-    "lipides": 0.5,
-    "categorie": "Légumineuses",
-    "portion": "100g",
-    "origine": "Amérique du Sud",
-    "bienfaits": ["Prêt à l'emploi", "Riche en fibres", "Source de protéines"],
-    "image": "images/haricots-rouges.jpg",
-    "emoji": "🫘"
   },
   {
     "id": "melon",
@@ -235,7 +276,11 @@
     "categorie": "Fruits",
     "portion": "100g",
     "origine": "Iran",
-    "bienfaits": ["Très hydratant", "Riche en vitamine A", "Faible en calories"],
+    "bienfaits": [
+      "Très hydratant",
+      "Riche en vitamine A",
+      "Faible en calories"
+    ],
     "image": "images/melon.jpg",
     "emoji": "🍈"
   },
@@ -250,7 +295,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Asie centrale",
-    "bienfaits": ["Bonne pour la vision", "Riche en vitamine A", "Bonne pour la peau"],
+    "bienfaits": [
+      "Bonne pour la vision",
+      "Riche en vitamine A",
+      "Bonne pour la peau"
+    ],
     "image": "images/carotte.jpg",
     "emoji": "🥕"
   },
@@ -262,10 +311,14 @@
     "glucides": 30,
     "proteines": 18,
     "lipides": 44,
-    "categorie": "Fruits à coque",
+    "categorie": "Lipides",
     "portion": "100g",
     "origine": "Brésil",
-    "bienfaits": ["Riche en magnésium", "Bonnes graisses", "Très rassasiantes"],
+    "bienfaits": [
+      "Riche en magnésium",
+      "Bonnes graisses",
+      "Très rassasiantes"
+    ],
     "image": "images/noix-cajou.jpg",
     "emoji": "🌰"
   },
@@ -280,7 +333,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Méditerranée",
-    "bienfaits": ["Quasiment zéro calorie", "Très hydratant", "Bon en snack"],
+    "bienfaits": [
+      "Quasiment zéro calorie",
+      "Très hydratant",
+      "Bon en snack"
+    ],
     "image": "images/celeri.jpg",
     "emoji": "🌿"
   },
@@ -292,10 +349,14 @@
     "glucides": 0,
     "proteines": 25,
     "lipides": 25,
-    "categorie": "Produits laitiers",
+    "categorie": "Laitiers",
     "portion": "100g",
     "origine": "Monde entier",
-    "bienfaits": ["Riche en calcium", "Source de protéines", "Très énergétique"],
+    "bienfaits": [
+      "Riche en calcium",
+      "Source de protéines",
+      "Très énergétique"
+    ],
     "image": "images/fromage.jpg",
     "emoji": "🧀"
   },
@@ -307,10 +368,14 @@
     "glucides": 4.4,
     "proteines": 3.3,
     "lipides": 1,
-    "categorie": "Herbes",
+    "categorie": "Légumes",
     "portion": "100g",
     "origine": "Europe",
-    "bienfaits": ["Aromatique", "Riche en vitamine K", "Peu calorique"],
+    "bienfaits": [
+      "Aromatique",
+      "Riche en vitamine K",
+      "Peu calorique"
+    ],
     "image": "images/ciboulette.jpg",
     "emoji": "🌿"
   },
@@ -325,7 +390,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Amérique centrale",
-    "bienfaits": ["Très peu calorique", "Hydratante", "Polyvalente"],
+    "bienfaits": [
+      "Très peu calorique",
+      "Hydratante",
+      "Polyvalente"
+    ],
     "image": "images/courgette.jpg",
     "emoji": "🥒"
   },
@@ -340,7 +409,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Inde",
-    "bienfaits": ["Très hydratant", "Quasi zéro calorie", "Rafraîchissant"],
+    "bienfaits": [
+      "Très hydratant",
+      "Quasi zéro calorie",
+      "Rafraîchissant"
+    ],
     "image": "images/concombre.jpg",
     "emoji": "🥒"
   },
@@ -352,10 +425,14 @@
     "glucides": 0,
     "proteines": 12.5,
     "lipides": 9,
-    "categorie": "Œufs",
+    "categorie": "Poissons",
     "portion": "100g",
     "origine": "Monde entier",
-    "bienfaits": ["Protéines complètes", "Riche en vitamines", "Très rassasiant"],
+    "bienfaits": [
+      "Protéines complètes",
+      "Riche en vitamines",
+      "Très rassasiant"
+    ],
     "image": "images/oeuf.jpg",
     "emoji": "🥚"
   },
@@ -367,10 +444,14 @@
     "glucides": 1.2,
     "proteines": 14,
     "lipides": 21,
-    "categorie": "Produits laitiers",
+    "categorie": "Laitiers",
     "portion": "100g",
     "origine": "Grèce",
-    "bienfaits": ["Riche en calcium", "Bonne source de protéines", "Texture crémeuse"],
+    "bienfaits": [
+      "Riche en calcium",
+      "Bonne source de protéines",
+      "Texture crémeuse"
+    ],
     "image": "images/feta.jpg",
     "emoji": "🧀"
   },
@@ -385,7 +466,11 @@
     "categorie": "Fruits",
     "portion": "100g",
     "origine": "Méditerranée",
-    "bienfaits": ["Riche en fibres", "Source de calcium", "Naturellement sucrée"],
+    "bienfaits": [
+      "Riche en fibres",
+      "Source de calcium",
+      "Naturellement sucrée"
+    ],
     "image": "images/figue.jpg",
     "emoji": "🍇"
   },
@@ -397,10 +482,14 @@
     "glucides": 16.3,
     "proteines": 7.9,
     "lipides": 1,
-    "categorie": "Condiments",
+    "categorie": "Divers",
     "portion": "100g",
     "origine": "Asie centrale",
-    "bienfaits": ["Antibactérien naturel", "Bon pour le cœur", "Renforce l'immunité"],
+    "bienfaits": [
+      "Antibactérien naturel",
+      "Bon pour le cœur",
+      "Renforce l'immunité"
+    ],
     "image": "images/ail.jpg",
     "emoji": "🧄"
   },
@@ -415,7 +504,11 @@
     "categorie": "Fruits",
     "portion": "100g",
     "origine": "Moyen-Orient",
-    "bienfaits": ["Riche en antioxydants", "Énergie naturelle", "Source de vitamines"],
+    "bienfaits": [
+      "Riche en antioxydants",
+      "Énergie naturelle",
+      "Source de vitamines"
+    ],
     "image": "images/raisin.jpg",
     "emoji": "🍇"
   },
@@ -430,7 +523,11 @@
     "categorie": "Fruits",
     "portion": "100g",
     "origine": "Asie",
-    "bienfaits": ["Très hydratant", "Naturellement sucré", "Faible en calories"],
+    "bienfaits": [
+      "Très hydratant",
+      "Naturellement sucré",
+      "Faible en calories"
+    ],
     "image": "images/miel-dew.jpg",
     "emoji": "🍈"
   },
@@ -445,7 +542,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Égypte",
-    "bienfaits": ["Croquante", "Très peu calorique", "Hydratante"],
+    "bienfaits": [
+      "Croquante",
+      "Très peu calorique",
+      "Hydratante"
+    ],
     "image": "images/laitue-iceberg.jpg",
     "emoji": "🥗"
   },
@@ -457,10 +558,14 @@
     "glucides": 63,
     "proteines": 9,
     "lipides": 17,
-    "categorie": "Plats préparés",
+    "categorie": "Divers",
     "portion": "100g",
     "origine": "Indonésie",
-    "bienfaits": ["Rapide à préparer", "Très pratique", "Énergétique"],
+    "bienfaits": [
+      "Rapide à préparer",
+      "Très pratique",
+      "Énergétique"
+    ],
     "image": "images/indomie.jpg",
     "emoji": "🍜"
   },
@@ -475,7 +580,11 @@
     "categorie": "Fruits",
     "portion": "100g",
     "origine": "Chine",
-    "bienfaits": ["Très riche en vitamine C", "Riche en fibres", "Bon pour l'immunité"],
+    "bienfaits": [
+      "Très riche en vitamine C",
+      "Riche en fibres",
+      "Bon pour l'immunité"
+    ],
     "image": "images/kiwi.jpg",
     "emoji": "🥝"
   },
@@ -487,10 +596,14 @@
     "glucides": 35,
     "proteines": 0,
     "lipides": 1,
-    "categorie": "Boulangerie",
+    "categorie": "Féculents",
     "portion": "100g",
     "origine": "Liban",
-    "bienfaits": ["Polyvalent", "Idéal pour wraps", "Apporte de l'énergie"],
+    "bienfaits": [
+      "Polyvalent",
+      "Idéal pour wraps",
+      "Apporte de l'énergie"
+    ],
     "image": "images/pain-libanais.jpg",
     "emoji": "🫓"
   },
@@ -505,7 +618,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Méditerranée",
-    "bienfaits": ["Riche en fibres", "Source de vitamine K", "Diurétique"],
+    "bienfaits": [
+      "Riche en fibres",
+      "Source de vitamine K",
+      "Diurétique"
+    ],
     "image": "images/poireau.jpg",
     "emoji": "🌿"
   },
@@ -520,7 +637,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Méditerranée",
-    "bienfaits": ["Très peu calorique", "Bonne en salade", "Riche en folates"],
+    "bienfaits": [
+      "Très peu calorique",
+      "Bonne en salade",
+      "Riche en folates"
+    ],
     "image": "images/laitue.jpg",
     "emoji": "🥗"
   },
@@ -535,7 +656,11 @@
     "categorie": "Fruits",
     "portion": "100g",
     "origine": "Inde",
-    "bienfaits": ["Riche en vitamine C", "Hydratante", "Bonne source d'antioxydants"],
+    "bienfaits": [
+      "Riche en vitamine C",
+      "Hydratante",
+      "Bonne source d'antioxydants"
+    ],
     "image": "images/mangue.jpg",
     "emoji": "🥭"
   },
@@ -547,10 +672,14 @@
     "glucides": 1.5,
     "proteines": 14,
     "lipides": 25,
-    "categorie": "Charcuterie",
+    "categorie": "Viandes",
     "portion": "100g",
     "origine": "Afrique du Nord",
-    "bienfaits": ["Très savoureuse", "Riche en protéines", "Goût épicé"],
+    "bienfaits": [
+      "Très savoureuse",
+      "Riche en protéines",
+      "Goût épicé"
+    ],
     "image": "images/merguez.jpg",
     "emoji": "🌭"
   },
@@ -562,10 +691,14 @@
     "glucides": 17,
     "proteines": 12,
     "lipides": 14,
-    "categorie": "Plats préparés",
+    "categorie": "Divers",
     "portion": "100g",
     "origine": "États-Unis",
-    "bienfaits": ["Pratique", "Aimé des enfants", "Cuisson rapide"],
+    "bienfaits": [
+      "Pratique",
+      "Aimé des enfants",
+      "Cuisson rapide"
+    ],
     "image": "images/nuggets.jpg",
     "emoji": "🍗"
   },
@@ -577,10 +710,14 @@
     "glucides": 0,
     "proteines": 0,
     "lipides": 92,
-    "categorie": "Huiles",
+    "categorie": "Lipides",
     "portion": "100g",
     "origine": "Europe",
-    "bienfaits": ["Riche en oméga-3", "Bonne pour le cœur", "Polyvalente"],
+    "bienfaits": [
+      "Riche en oméga-3",
+      "Bonne pour le cœur",
+      "Polyvalente"
+    ],
     "image": "images/huile-colza.jpg",
     "emoji": "🛢️"
   },
@@ -595,7 +732,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Asie centrale",
-    "bienfaits": ["Riche en antioxydants", "Aromatique", "Bon pour l'immunité"],
+    "bienfaits": [
+      "Riche en antioxydants",
+      "Aromatique",
+      "Bon pour l'immunité"
+    ],
     "image": "images/oignon.jpg",
     "emoji": "🧅"
   },
@@ -610,7 +751,11 @@
     "categorie": "Fruits",
     "portion": "100g",
     "origine": "Asie",
-    "bienfaits": ["Très riche en vitamine C", "Hydratante", "Bonne pour l'immunité"],
+    "bienfaits": [
+      "Très riche en vitamine C",
+      "Hydratante",
+      "Bonne pour l'immunité"
+    ],
     "image": "images/orange.jpg",
     "emoji": "🍊"
   },
@@ -622,10 +767,14 @@
     "glucides": 4.1,
     "proteines": 38,
     "lipides": 29,
-    "categorie": "Produits laitiers",
+    "categorie": "Laitiers",
     "portion": "100g",
     "origine": "Italie",
-    "bienfaits": ["Très riche en calcium", "Concentré en protéines", "Goût intense"],
+    "bienfaits": [
+      "Très riche en calcium",
+      "Concentré en protéines",
+      "Goût intense"
+    ],
     "image": "images/parmesan.jpg",
     "emoji": "🧀"
   },
@@ -637,10 +786,14 @@
     "glucides": 6,
     "proteines": 3,
     "lipides": 1,
-    "categorie": "Herbes",
+    "categorie": "Légumes",
     "portion": "100g",
     "origine": "Méditerranée",
-    "bienfaits": ["Très riche en vitamine K", "Aromatique", "Détoxifiant"],
+    "bienfaits": [
+      "Très riche en vitamine K",
+      "Aromatique",
+      "Détoxifiant"
+    ],
     "image": "images/persil.jpg",
     "emoji": "🌿"
   },
@@ -655,7 +808,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Europe",
-    "bienfaits": ["Riche en fibres", "Naturellement sucré", "Source de potassium"],
+    "bienfaits": [
+      "Riche en fibres",
+      "Naturellement sucré",
+      "Source de potassium"
+    ],
     "image": "images/panais.jpg",
     "emoji": "🥕"
   },
@@ -667,10 +824,14 @@
     "glucides": 70,
     "proteines": 13,
     "lipides": 1.5,
-    "categorie": "Céréales",
+    "categorie": "Féculents",
     "portion": "100g",
     "origine": "Italie",
-    "bienfaits": ["Énergie durable", "Facile à cuisiner", "Bon pour les sportifs"],
+    "bienfaits": [
+      "Énergie durable",
+      "Facile à cuisiner",
+      "Bon pour les sportifs"
+    ],
     "image": "images/pates.jpg",
     "emoji": "🍝"
   },
@@ -685,7 +846,11 @@
     "categorie": "Fruits",
     "portion": "100g",
     "origine": "Chine",
-    "bienfaits": ["Peu calorique", "Hydratante", "Riche en vitamines"],
+    "bienfaits": [
+      "Peu calorique",
+      "Hydratante",
+      "Riche en vitamines"
+    ],
     "image": "images/peche.jpg",
     "emoji": "🍑"
   },
@@ -697,10 +862,14 @@
     "glucides": 8.2,
     "proteines": 21,
     "lipides": 55,
-    "categorie": "Fruits à coque",
+    "categorie": "Lipides",
     "portion": "100g",
     "origine": "Moyen-Orient",
-    "bienfaits": ["Riche en protéines", "Bonnes graisses", "Très rassasiantes"],
+    "bienfaits": [
+      "Riche en protéines",
+      "Bonnes graisses",
+      "Très rassasiantes"
+    ],
     "image": "images/pistache.jpg",
     "emoji": "🌰"
   },
@@ -715,7 +884,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Amérique centrale",
-    "bienfaits": ["Très faible en calories", "Riche en vitamine C", "Hydratant"],
+    "bienfaits": [
+      "Très faible en calories",
+      "Riche en vitamine C",
+      "Hydratant"
+    ],
     "image": "images/poivron-vert.jpg",
     "emoji": "🫑"
   },
@@ -730,7 +903,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Amérique centrale",
-    "bienfaits": ["Riche en antioxydants", "Goût plus sucré", "Très vitaminé"],
+    "bienfaits": [
+      "Riche en antioxydants",
+      "Goût plus sucré",
+      "Très vitaminé"
+    ],
     "image": "images/poivron-rouge.jpg",
     "emoji": "🌶️"
   },
@@ -745,7 +922,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Mexique",
-    "bienfaits": ["Riche en capsaïcine", "Stimule le métabolisme", "Très peu calorique"],
+    "bienfaits": [
+      "Riche en capsaïcine",
+      "Stimule le métabolisme",
+      "Très peu calorique"
+    ],
     "image": "images/piment-serrano.jpg",
     "emoji": "🌶️"
   },
@@ -760,7 +941,11 @@
     "categorie": "Viandes",
     "portion": "100g",
     "origine": "Monde entier",
-    "bienfaits": ["Très riche en protéines", "Faible en matières grasses", "Aide à la récupération musculaire"],
+    "bienfaits": [
+      "Très riche en protéines",
+      "Faible en matières grasses",
+      "Aide à la récupération musculaire"
+    ],
     "image": "images/poulet.jpg",
     "emoji": "🍗"
   },
@@ -775,7 +960,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Pérou",
-    "bienfaits": ["Polyvalente", "Riche en potassium", "Rassasiante"],
+    "bienfaits": [
+      "Polyvalente",
+      "Riche en potassium",
+      "Rassasiante"
+    ],
     "image": "images/pomme-de-terre.jpg",
     "emoji": "🥔"
   },
@@ -787,10 +976,14 @@
     "glucides": 64,
     "proteines": 14,
     "lipides": 6,
-    "categorie": "Céréales",
+    "categorie": "Féculents",
     "portion": "100g",
     "origine": "Pérou",
-    "bienfaits": ["Protéines complètes", "Riche en fibres", "Sans gluten"],
+    "bienfaits": [
+      "Protéines complètes",
+      "Riche en fibres",
+      "Sans gluten"
+    ],
     "image": "images/quinoa.jpg",
     "emoji": "🌾"
   },
@@ -802,10 +995,14 @@
     "glucides": 78,
     "proteines": 7,
     "lipides": 0.6,
-    "categorie": "Céréales",
+    "categorie": "Féculents",
     "portion": "100g",
     "origine": "Asie",
-    "bienfaits": ["Facile à digérer", "Bonne source d'énergie", "Faible en lipides"],
+    "bienfaits": [
+      "Facile à digérer",
+      "Bonne source d'énergie",
+      "Faible en lipides"
+    ],
     "image": "images/riz.jpg",
     "emoji": "🍚"
   },
@@ -820,7 +1017,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Méditerranée",
-    "bienfaits": ["Goût poivré", "Peu calorique", "Riche en vitamine K"],
+    "bienfaits": [
+      "Goût poivré",
+      "Peu calorique",
+      "Riche en vitamine K"
+    ],
     "image": "images/roquette.jpg",
     "emoji": "🌿"
   },
@@ -835,7 +1036,11 @@
     "categorie": "Poissons",
     "portion": "100g",
     "origine": "Norvège",
-    "bienfaits": ["Riche en oméga-3", "Bon pour le cerveau", "Bon pour le cœur"],
+    "bienfaits": [
+      "Riche en oméga-3",
+      "Bon pour le cerveau",
+      "Bon pour le cœur"
+    ],
     "image": "images/saumon.jpg",
     "emoji": "🐟"
   },
@@ -850,7 +1055,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Perse",
-    "bienfaits": ["Riches en fer", "Très peu caloriques", "Riches en folates"],
+    "bienfaits": [
+      "Riches en fer",
+      "Très peu caloriques",
+      "Riches en folates"
+    ],
     "image": "images/epinards.jpg",
     "emoji": "🥬"
   },
@@ -865,7 +1074,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Chine",
-    "bienfaits": ["Goût doux", "Polyvalent", "Riche en vitamine K"],
+    "bienfaits": [
+      "Goût doux",
+      "Polyvalent",
+      "Riche en vitamine K"
+    ],
     "image": "images/oignon-vert.jpg",
     "emoji": "🧅"
   },
@@ -880,7 +1093,11 @@
     "categorie": "Fruits",
     "portion": "100g",
     "origine": "Europe",
-    "bienfaits": ["Riche en vitamine C", "Antioxydante", "Peu calorique"],
+    "bienfaits": [
+      "Riche en vitamine C",
+      "Antioxydante",
+      "Peu calorique"
+    ],
     "image": "images/fraise.jpg",
     "emoji": "🍓"
   },
@@ -892,10 +1109,14 @@
     "glucides": 100,
     "proteines": 0,
     "lipides": 0,
-    "categorie": "Condiments",
+    "categorie": "Divers",
     "portion": "100g",
     "origine": "Monde entier",
-    "bienfaits": ["Énergie rapide", "Donne du goût", "Polyvalent"],
+    "bienfaits": [
+      "Énergie rapide",
+      "Donne du goût",
+      "Polyvalent"
+    ],
     "image": "images/sucre.jpg",
     "emoji": "🍬"
   },
@@ -910,7 +1131,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Amérique centrale",
-    "bienfaits": ["Riche en vitamine A", "Naturellement sucrée", "Source de fibres"],
+    "bienfaits": [
+      "Riche en vitamine A",
+      "Naturellement sucrée",
+      "Source de fibres"
+    ],
     "image": "images/patate-douce.jpg",
     "emoji": "🍠"
   },
@@ -925,7 +1150,11 @@
     "categorie": "Viandes",
     "portion": "100g",
     "origine": "Monde entier",
-    "bienfaits": ["Riche en protéines", "Cuisson rapide", "Croustillantes"],
+    "bienfaits": [
+      "Riche en protéines",
+      "Cuisson rapide",
+      "Croustillantes"
+    ],
     "image": "images/aiguillettes.jpg",
     "emoji": "🍗"
   },
@@ -940,7 +1169,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Amérique du Sud",
-    "bienfaits": ["Très hydratante", "Riche en antioxydants", "Faible en calories"],
+    "bienfaits": [
+      "Très hydratante",
+      "Riche en antioxydants",
+      "Faible en calories"
+    ],
     "image": "images/tomate.jpg",
     "emoji": "🍅"
   },
@@ -955,7 +1188,11 @@
     "categorie": "Viandes",
     "portion": "100g",
     "origine": "Amérique du Nord",
-    "bienfaits": ["Très maigre", "Riche en protéines", "Faible en calories"],
+    "bienfaits": [
+      "Très maigre",
+      "Riche en protéines",
+      "Faible en calories"
+    ],
     "image": "images/dinde.jpg",
     "emoji": "🦃"
   },
@@ -970,7 +1207,11 @@
     "categorie": "Légumes",
     "portion": "100g",
     "origine": "Inde",
-    "bienfaits": ["Bonne source de fibres", "Faible en calories", "Bonne pour la digestion"],
+    "bienfaits": [
+      "Bonne source de fibres",
+      "Faible en calories",
+      "Bonne pour la digestion"
+    ],
     "image": "images/aubergine.jpg",
     "emoji": "🍆"
   },
@@ -985,7 +1226,11 @@
     "categorie": "Légumineuses",
     "portion": "100g",
     "origine": "Amérique du Sud",
-    "bienfaits": ["Riche en protéines", "Très rassasiant", "Bon pour le transit"],
+    "bienfaits": [
+      "Riche en protéines",
+      "Très rassasiant",
+      "Bon pour le transit"
+    ],
     "image": "images/haricots.jpg",
     "emoji": "🫘"
   },
@@ -997,10 +1242,14 @@
     "glucides": 42.9,
     "proteines": 8.6,
     "lipides": 7.1,
-    "categorie": "Boulangerie",
+    "categorie": "Féculents",
     "portion": "100g",
     "origine": "Mexique",
-    "bienfaits": ["Polyvalent", "Pratique", "Apporte de l'énergie"],
+    "bienfaits": [
+      "Polyvalent",
+      "Pratique",
+      "Apporte de l'énergie"
+    ],
     "image": "images/wrap.jpg",
     "emoji": "🌯"
   }

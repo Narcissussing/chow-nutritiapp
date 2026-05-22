@@ -78,20 +78,6 @@ function genererAliments(liste) {
   });
 }
 
-// ---- Fonction pour retourner un emoji selon la catégorie ----
-function getEmoji(categorie) {
-  if (categorie === "Céréales") return "🍚";
-  if (categorie === "Légumes") return "🥦";
-  if (categorie === "Légumineuses") return "🫘";
-  if (categorie === "Boulangerie") return "🥖";
-  if (categorie === "Plats préparés") return "🍜";
-  if (categorie === "Fruits") return "🍋";
-  if (categorie === "Viandes") return "🍗";
-  if (categorie === "Poissons") return "🐟";
-  if (categorie === "Charcuterie") return "🌭";
-  if (categorie === "Produits laitiers") return "🧀";
-  return "🍽️";
-}
 
 // On garde la catégorie et le tri actifs en mémoire
 let categorieActive = "tous";
